@@ -304,6 +304,10 @@ public class PoorRail extends javax.swing.JFrame implements ActionListener
 		}
 	}
 	
+	public void SimeonTest() {
+		System.out.println("godver");
+	}
+	
 	public String addTrain(String train)
 	{
 		String t = "";
