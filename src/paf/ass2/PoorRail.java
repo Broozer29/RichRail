@@ -304,10 +304,6 @@ public class PoorRail extends javax.swing.JFrame implements ActionListener
 		}
 	}
 	
-	public void SimeonTest() {
-		System.out.println("godver");
-	}
-	
 	public String addTrain(String train)
 	{
 		String t = "";
@@ -369,7 +365,4 @@ public class PoorRail extends javax.swing.JFrame implements ActionListener
 		g.drawString(wagon,40+currentNumberOfWagons*TRAINLENGTH,105+currentTrain*OFFSET);
     }
 	
-	public void testTestTwee() {
-		
-	}
 }
