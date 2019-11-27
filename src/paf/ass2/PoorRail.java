@@ -364,4 +364,8 @@ public class PoorRail extends javax.swing.JFrame implements ActionListener
 		g.fillRoundRect(80+currentNumberOfWagons*TRAINLENGTH, 120+currentTrain*OFFSET, 20, 20, 20, 20);
 		g.drawString(wagon,40+currentNumberOfWagons*TRAINLENGTH,105+currentTrain*OFFSET);
     }
+	
+	public void test() {
+		
+	}
 }
